@@ -102,16 +102,13 @@ AddOutputFilter chunkFilter
 		<Item Name="Auton" Type="Folder" URL="../Auton">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Climber" Type="Folder" URL="../Climber">
+		<Item Name="Climb" Type="Folder" URL="../Climb">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Control Panel" Type="Folder" URL="../Control Panel">
+		<Item Name="Drive" Type="Folder" URL="../Drive">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Drivetrain" Type="Folder" URL="../Drivetrain">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Indexer" Type="Folder" URL="../Indexer">
+		<Item Name="Index" Type="Folder" URL="../Index">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Intake" Type="Folder" URL="../Intake">
@@ -123,7 +120,10 @@ AddOutputFilter chunkFilter
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Shooter" Type="Folder" URL="../Shooter">
+		<Item Name="Shoot" Type="Folder" URL="../Shoot">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Vanna" Type="Folder" URL="../Vanna">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
