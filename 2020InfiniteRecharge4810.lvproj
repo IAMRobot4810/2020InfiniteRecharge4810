@@ -124,6 +124,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Vanna" Type="Folder" URL="../Vanna">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Is target close to current.vi" Type="VI" URL="../Calculations or utilities/Is target close to current.vi"/>
 		<Item Name="Is var in acceptable range.vi" Type="VI" URL="../Calculations or utilities/Is var in acceptable range.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
