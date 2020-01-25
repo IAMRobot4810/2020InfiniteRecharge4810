@@ -124,7 +124,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Vanna" Type="Folder" URL="../Vanna">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Is target close to current.vi" Type="VI" URL="../Calculations or utilities/Is target close to current.vi"/>
+		<Item Name="Is command done typedef.ctl" Type="VI" URL="../Calculations or utilities/Is command done typedef.ctl"/>
 		<Item Name="Is var in acceptable range.vi" Type="VI" URL="../Calculations or utilities/Is var in acceptable range.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -486,6 +486,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Is target close to current.vi" Type="VI" URL="../Calculations or utilities/Is target close to current.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
