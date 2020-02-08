@@ -99,7 +99,12 @@ AddOutputFilter chunkFilter
 		<Item Name=".Team Code" Type="Folder" URL="../.Team Code">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Auton" Type="Folder"/>
+		<Item Name="Auton" Type="Folder" URL="../Auton">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Calculations or utilities" Type="Folder" URL="../Calculations or utilities">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Climb" Type="Folder" URL="../Climb">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -124,9 +129,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Vanna" Type="Folder" URL="../Vanna">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Auton_Selector.vi" Type="VI" URL="../Auton/Auton_Selector.vi"/>
-		<Item Name="Is target close to current.vi" Type="VI" URL="../Calculations or utilities/Is target close to current.vi"/>
-		<Item Name="Is var in acceptable range.vi" Type="VI" URL="../Calculations or utilities/Is var in acceptable range.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -589,7 +591,6 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Is command done typedef.ctl" Type="VI" URL="../Calculations or utilities/Is command done typedef.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
