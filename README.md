@@ -18,14 +18,14 @@
 13. Vanna
 
 ## Solenoid IDs
-1. Intake Left Forward
-2. Intake Left Reverse
-3. Intake Right Forward
-4. Intake Right Reverse
-5. Vanna Forward
-6. Vanna Reverse
-7. Shooter Angle Forward, if applicable
-8. Shooter Angle Reverse, if applicable
+0. Intake Left Forward
+1. Intake Left Reverse
+2. Intake Right Forward
+3. Intake Right Reverse
+4. Vanna Forward
+5. Vanna Reverse
+6. Shooter Angle Forward, if applicable
+7. Shooter Angle Reverse, if applicable
 
 ## PWM IDs
 0. LEDs
