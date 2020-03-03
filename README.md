@@ -18,10 +18,10 @@
 13. Vanna
 
 ## Solenoid IDs
-0. Intake Left Forward
-1. Intake Left Reverse
-2. Intake Right Forward
-3. Intake Right Reverse
+0. Intake Retract
+1. Intake Extend
+2. 
+3. 
 4. Vanna Forward
 5. Vanna Reverse
 6. Shooter Angle Forward, if applicable
