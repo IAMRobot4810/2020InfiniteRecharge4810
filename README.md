@@ -18,11 +18,11 @@
 13. Vanna
 
 ## Solenoid IDs
-0. Intake Retract
+0. 
 1. Intake Extend
 2. 
-3. 
-4. Vanna Forward
+3. Intake Retract
+4. Vanna Forward THE REST ARE NOT RIGHT cause don't exist
 5. Vanna Reverse
 6. Shooter Angle Forward, if applicable
 7. Shooter Angle Reverse, if applicable
@@ -34,24 +34,34 @@
 ### Driver Joystick
 - Two Joysticks for driving (Left Y is throttle, 
 - Right X is turn)
-- Triggers for intaking. Pressing all the way forces a retract/extend. Keeping them less than 75% leaves the pheumatic state alone. May make speed on/off, not continuous
-- Left bumper: turbo drive
-- Right Bumper: auto-align
+- Left Joystick press: turbo drivebase
+- Triggers for intaking
+- Left bumper: Toggle state of intake's pheumatics
+- Right Bumper: auto-align to target with vision
+- DB/Slider 0 sets the maximum % output of drive motors
 
 ### Operator Joystick
-- DPAD: UP/Down = climber up/down
-- DPAD Sideways = Skywalker manual
-- Left Bumper = Skywalker auto (gyroscope)
-- Y Button: Auto range shooter
-- A, B, X buttons: preset speeds shooter
-- Right joystick X: Vanna Manual. must have deadband.
-- Left Joystick Y: UP = Rotation control; DOWN = position control
+
+- DPAD: UP = Rotation Control
+- DPAD DOWN = Position Control
+- DPAD Sideways = Vanna manual
 Vanna pops up whenever its not disabled
+- Left Trigger: Manual Shooter Speed
+- Buttons are for preset speeds
+  - A: Target zone (requires 2 position hood, currently N/A)
+  - B: Will be auto-range shooter, or something else as needed
+  - X: initiation line
+  - Y: Trench
+- Left Joystick Y: Fine adjust shooter setpoints to be partway between the current one and the next highest one
 - Right Trigger: Fire Ball (Run indexer)
-- Left Trigger: Manual Shooter Speed. Eventually will be Shooter angle.
+- Left Bumper: run indexer backwards
+- Right Joystick Y: climb up/down
+- DB/Slider 1 says how much to multiply the shooter RPM setpoint by %
+
 
 ### Feedback
 Driver Rumbles when Vanna done
 Operator rumbles when Aligned (only in Teleop)
 LEDs white when shooter up to speed
 LEDs Blue otherwise
+LEDs currently aren't on robot
